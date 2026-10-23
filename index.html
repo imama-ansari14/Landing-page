@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WizardZ helps businesses grow with SEO, PPC, social media marketing, and email marketing.">
+  <title>WizardZ — Digital Growth Partner</title>
+  <!-- Bootstrap 5 CSS provides the responsive grid and utility classes. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts used to closely match the reference design. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Project stylesheet. -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Main page wrapper keeps the site on a soft lavender canvas. -->
+  <div class="site-shell">
+    <!-- Header / navigation component. -->
+    <header class="site-header container-fluid">
+      <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+        <a class="navbar-brand brand" href="#home" aria-label="WizardZ home">
+          <span class="brand-mark" aria-hidden="true"><i></i><b></b><em></em></span>
+          <span>WizardZ</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cases">Use Cases</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item ms-lg-4"><a class="btn btn-primary-pill" href="#contact">Request a quote <span class="arrow-circle">↗</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero component: main headline, supporting copy, CTAs and illustration. -->
+      <section class="hero-section container-fluid" id="home">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5 hero-copy">
+            <div class="eyebrow"><span class="sparkle">✦</span> DIGITAL GROWTH PARTNER</div>
+            <h1>Navigating the<br><span class="purple">digital</span> landscape<br>for <span class="teal">success</span></h1>
+            <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary-pill" href="#contact">Book a consultation <span class="arrow-circle">↗</span></a>
+              <a class="btn btn-outline-pill" href="#services">Explore our services <span class="play-circle">▶</span></a>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <!-- Decorative SVG illustration is inline so the project has no image asset dependencies. -->
+            <div class="hero-art" aria-label="Digital marketing megaphone illustration" role="img">
+              <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+              <span class="orb orb-a"></span><span class="orb orb-b"></span><span class="orb orb-c"></span><span class="orb orb-d"></span><span class="orb orb-e"></span>
+              <div class="art-glow"></div>
+              <svg class="megaphone" viewBox="0 0 470 360" xmlns="http://www.w3.org/2000" aria-hidden="true">
+                <defs>
+                  <linearGradient id="horn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fefeff"/><stop offset=".56" stop-color="#dfe5ff"/><stop offset="1" stop-color="#9ca8ff"/></linearGradient>
+                  <linearGradient id="purpleBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8c69ff"/><stop offset=".55" stop-color="#4d20d7"/><stop offset="1" stop-color="#250e89"/></linearGradient>
+                  <linearGradient id="innerHorn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4820cb"/><stop offset="1" stop-color="#1c075e"/></linearGradient>
+                  <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="13" flood-color="#4320a0" flood-opacity=".25"/></filter>
+                </defs>
+                <g filter="url(#shadow)" transform="translate(22 20) rotate(-14 220 170)">
+                  <path d="M113 145 L60 225 Q54 236 66 242 L113 260 L161 193 Z" fill="#4e20c9"/>
+                  <path d="M70 238 L100 250 L92 291 Q89 304 76 300 L55 292 Q47 289 51 278 Z" fill="url(#purpleBody)"/>
+                  <path d="M103 112 L243 73 Q274 64 294 83 L354 139 Q368 152 355 166 L294 227 Q276 245 246 236 L103 194 Z" fill="url(#horn)"/>
+                  <path d="M103 112 L145 101 L169 218 L103 194 Q91 189 91 176 L91 132 Q91 118 103 112Z" fill="url(#purpleBody)"/>
+                  <path d="M243 73 Q271 65 294 83 L354 139 Q368 152 355 166 L294 227 Q276 245 246 236 Q264 213 268 176 Q272 123 243 73Z" fill="#fff"/>
+                  <path d="M272 89 Q293 86 310 103 L350 143 Q359 152 348 163 L307 202 Q290 217 273 212 Q295 183 292 150 Q290 114 272 89Z" fill="url(#innerHorn)"/>
+                  <ellipse cx="281" cy="151" rx="14" ry="44" transform="rotate(-16 281 151)" fill="#241078"/>
+                  <path d="M114 127 L237 92 Q250 88 260 100 L278 119 Q286 129 276 139 L166 190 Q145 200 126 185Z" fill="#fff" opacity=".72"/>
+                  <path d="M105 144 L155 128 L173 194 L113 193Z" fill="#6c43ed"/>
+                  <path d="M108 196 L160 193 L179 215 L143 235 L116 220Z" fill="#32109e"/>
+                </g>
+              </svg>
+              <!-- Floating benefit cards mirror the reference's right-side callouts. -->
+              <div class="benefit-card benefit-one"><span class="mini-icon green-bars">▥</span><b>Increase<br>Traffic</b></div>
+              <div class="benefit-card benefit-two"><span class="mini-icon violet-users">●●</span><b>Generate<br>Leads</b></div>
+              <div class="benefit-card benefit-three"><span class="mini-icon pink-heart">♥</span><b>Boost<br>Engagement</b></div>
+              <div class="benefit-card benefit-four"><span class="mini-icon green-dollar">$</span><b>Maximize<br>ROI</b></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Animated partner logo strip. Logos continuously move right-to-left. -->
+      <section class="trust-strip container-fluid" id="about" aria-label="Trusted by leading brands">
+        <div class="trust-label">TRUSTED BY<br>LEADING BRANDS</div>
+        <div class="logo-window">
+          <div class="logo-track">
+            <span class="wordmark amazon">amazon</span><span class="wordmark dribbble">dribbble</span><span class="wordmark hubspot">HubSp<span>o</span>t</span><span class="wordmark notion"><b>N</b> Notion</span><span class="wordmark netflix">NETFLIX</span><span class="wordmark zoom">zoom</span>
+            <span class="wordmark amazon">amazon</span><span class="wordmark dribbble">dribbble</span><span class="wordmark hubspot">HubSp<span>o</span>t</span><span class="wordmark notion"><b>N</b> Notion</span><span class="wordmark netflix">NETFLIX</span><span class="wordmark zoom">zoom</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services component: four responsive service cards. -->
+      <section class="services-section container-fluid" id="services">
+        <div class="section-heading text-center">
+          <span class="section-kicker">OUR SERVICES</span>
+          <h2>Solutions to <span>grow</span> your business</h2>
+          <p>We offer a complete range of digital marketing services<br class="d-none d-sm-block"> to help your business thrive online.</p>
+        </div>
+        <div class="row g-3 service-grid">
+          <div class="col-6 col-lg-3">
+            <article class="service-card card-lilac">
+              <div class="service-illustration search-illustration" aria-hidden="true">
+                <div class="magnifier"><div class="chart-bars"><i></i><i></i><i></i></div></div>
+              </div>
+              <h3>Search Engine<br>Optimization</h3>
+              <p>Improve your rankings and drive organic traffic.</p>
+              <a href="#contact" class="learn-link">Learn more <span>→</span></a>
+            </article>
+          </div>
+          <div class="col-6 col-lg-3">
+            <article class="service-card card-mint">
+              <div class="service-illustration ppc-illustration" aria-hidden="true">
+                <div class="browser-art"><i></i><i></i><i></i><b></b><span></span></div><div class="cursor-art"></div>
+              </div>
+              <h3>Pay Per Click<br>Advertising</h3>
+              <p>Get targeted traffic and increase conversions.</p>
+              <a href="#contact" class="learn-link">Learn more <span>→</span></a>
+            </article>
+          </div>
+          <div class="col-6 col-lg-3">
+            <article class="service-card card-cream">
+              <div class="service-illustration social-illustration" aria-hidden="true">
+                <div class="chat-bubble">•••</div><div class="social-bubble">★</div><div class="like-bubble">♥</div>
+              </div>
+              <h3>Social Media<br>Marketing</h3>
+              <p>Engage your audience and build your brand.</p>
+              <a href="#contact" class="learn-link">Learn more <span>→</span></a>
+            </article>
+          </div>
+          <div class="col-6 col-lg-3">
+            <article class="service-card card-blue">
+              <div class="service-illustration email-illustration" aria-hidden="true">
+                <div class="envelope"><span>@</span><i></i></div>
+              </div>
+              <h3>E-mail<br>Marketing</h3>
+              <p>Nurture leads and boost customer retention.</p>
+              <a href="#contact" class="learn-link">Learn more <span>→</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA banner component with a CSS/SVG rocket illustration. -->
+      <section class="rocket-banner container-fluid" id="pricing">
+        <div class="rocket-copy">
+          <h2>Let’s make<br><span>things happen</span></h2>
+          <p>Contact us today to learn more about how our digital marketing services can help your business grow.</p>
+          <a class="btn btn-light-pill" href="#contact">Get your free proposal <span class="arrow-circle">→</span></a>
+        </div>
+        <div class="rocket-scene" aria-hidden="true">
+          <div class="stars">✦ <b>✧</b> · ✦ · <i>✧</i></div>
+          <svg class="rocket" viewBox="0 0 240 210" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="rocketBody" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#b7c5ff"/></linearGradient><linearGradient id="flame" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d7ffff"/><stop offset=".5" stop-color="#37dcff"/><stop offset="1" stop-color="#8b5dff"/></linearGradient></defs>
+            <g transform="translate(24 5) rotate(37 100 100)">
+              <path d="M92 145 C70 173 75 190 77 200 C92 184 112 179 125 151Z" fill="url(#flame)"/>
+              <path d="M105 144 C96 172 104 185 111 193 C123 174 139 167 140 144Z" fill="#a9fbff" opacity=".9"/>
+              <path d="M92 28 Q121 49 132 89 L133 143 L89 151 L64 125 L66 80 Q74 47 92 28Z" fill="url(#rocketBody)" stroke="#c6d1ff" stroke-width="2"/>
+              <path d="M92 28 Q62 60 66 100 L89 87Z" fill="#7c58ee"/><path d="M92 28 Q122 59 132 89 L104 86Z" fill="#a7a1ff"/>
+              <circle cx="98" cy="83" r="15" fill="#4a35a7"/><circle cx="98" cy="83" r="9" fill="#a8f5ff"/><circle cx="98" cy="83" r="5" fill="#25386d"/>
+              <path d="M66 109 L43 132 L45 151 L82 138Z" fill="#4b28c6"/><path d="M132 109 L151 131 L148 148 L119 140Z" fill="#7250e8"/>
+              <path d="M89 151 L133 143 L122 164 L101 170Z" fill="#f6f7ff"/>
+            </g>
+          </svg>
+          <div class="cloud cloud-left"></div><div class="cloud cloud-mid"></div><div class="cloud cloud-right"></div>
+          <svg class="growth-line" viewBox="0 0 330 150" preserveAspectRatio="none"><path d="M0 130 L45 108 L85 116 L129 72 L173 83 L220 42 L265 55 L320 6" fill="none" stroke="#4be4ff" stroke-width="2.5"/><g fill="#a6faff"><circle cx="45" cy="108" r="4"/><circle cx="129" cy="72" r="4"/><circle cx="220" cy="42" r="4"/><circle cx="320" cy="6" r="4"/></g></svg>
+        </div>
+      </section>
+
+      <!-- Case studies component: outcome cards. -->
+      <section class="cases-section container-fluid" id="cases">
+        <div class="case-heading">
+          <div><span class="section-kicker"><span class="sparkle">✦</span> CASE STUDIES</span><h2>Real results from real clients</h2></div>
+          <a href="#contact" class="all-cases">See all case studies <span>→</span></a>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-4"><article class="case-card case-purple"><div class="case-icon cart-icon" aria-hidden="true">▾</div><div><span>E-commerce Brand</span><h3>+180%</h3><p>Increase in organic traffic within 6 months.</p><a href="#contact">Learn more <span>→</span></a></div></article></div>
+          <div class="col-md-4"><article class="case-card case-green"><div class="case-icon bars-icon" aria-hidden="true">▥</div><div><span>SaaS Company</span><h3>+250%</h3><p>Boost in leads through PPC campaigns.</p><a href="#contact">Learn more <span>→</span></a></div></article></div>
+          <div class="col-md-4"><article class="case-card case-yellow"><div class="case-icon bag-icon" aria-hidden="true">▰</div><div><span>Retail Business</span><h3>+120%</h3><p>Revenue growth with email marketing automation.</p><a href="#contact">Learn more <span>→</span></a></div></article></div>
+        </div>
+      </section>
+
+      <!-- Final contact CTA component. -->
+      <section class="contact-banner container-fluid" id="contact">
+        <div class="contact-avatar" aria-hidden="true"><span></span><i></i><b></b></div>
+        <div class="contact-copy"><h2>Ready to take your digital presence<br class="d-none d-md-block"> to the next level?</h2><p>Partner with WizardZ and unlock your business potential.</p></div>
+        <a href="mailto:hello@wizardz.example" class="btn btn-light-pill">Let’s Talk <span class="chat-icon" aria-hidden="true">◉</span></a>
+      </section>
+    </main>
+
+    <!-- Footer component with site links and social links. -->
+    <footer class="site-footer container-fluid" id="blog">
+      <a class="navbar-brand brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true"><i></i><b></b><em></em></span><span>WizardZ</span></a>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="#about">About Us</a><a href="#services">Services</a><a href="#cases">Use Cases</a><a href="#pricing">Pricing</a><a href="#blog">Blog</a></nav>
+      <div class="social-links" aria-label="Social links"><a href="#contact" aria-label="Facebook">f</a><a href="#contact" aria-label="LinkedIn">in</a><a href="#contact" aria-label="Twitter">♥</a><a href="#contact" aria-label="Instagram">◎</a></div>
+    </footer>
+  </div>
+
+  <!-- Bootstrap bundle enables the mobile navigation collapse. -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Project JavaScript. -->
+  <script src="js/main.js"></script>
+</body>
+</html>
